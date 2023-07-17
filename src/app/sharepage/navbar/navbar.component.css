@@ -1,0 +1,19 @@
+/* body {
+    /* Metal by Etienne Martin. https://unsplash.com/photos/v6uiP2MD6vs */
+    /* --metal-tex: url(https://images.unsplash.com/photo-1501166222995-ff31c7e93cef?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTcyMDc2NzU&ixlib=rb-1.2.1&q=80);
+} */ */
+
+.navbar-brand{
+    text-align: center;
+    color: rgb(187, 36, 36);
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
